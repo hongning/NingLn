@@ -1,0 +1,93 @@
+/* pages/ proficient/ proficient.wxss */
+
+.proficient {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pro_title {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "PingFangSC-Medium";
+  font-size: 36rpx;
+  font-weight: 600rpx;
+  padding-top: 87rpx;
+  padding-bottom: 71rpx;
+  color: #333;
+}
+
+.pro_title text {
+  text-align: center;
+}
+
+.pro_detail {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pro_detail text {
+  display: inline-block;
+  width: 100%;
+  font-family: "PingFangSC-Medium";
+  font-size: 28rpx;
+  color: #333;
+  box-sizing: border-box;
+  padding-top: 10rpx;
+}
+
+.detail {
+  font-family: "PingFangSC-Medium";
+  font-size: 28rpx;
+  font-weight: 600rpx;
+  color: #333;
+}
+
+.pro_content {
+  box-sizing: border-box;
+  margin-left: 28rpx;
+}
+
+.erweima {
+  width: 100%;
+  margin-top: 97rpx;
+  text-align: center;
+}
+
+.erweima image {
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.erweima text {
+  display: inline-block;
+  width: 475rpx;
+  color: #abaaaa;
+  font-family: "PingFang SC";
+  font-size: 28rpx;
+  box-sizing: border-box;
+  margin-top: 35rpx;
+  margin-bottom: 276rpx;
+}
+
+.phone {
+  width: 100%;
+  text-align: center;
+  padding: 40rpx 20rpx;
+}
+
+.phone p {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.phone  text {
+  /* width: 20%; */
+  /* margin-left: 175rpx; */
+  float: left;
+  font-size: 28rpx;
+  color: #74B7A5;
+  display: block;
+}

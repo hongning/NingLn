@@ -1,0 +1,130 @@
+.login_bg{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.login_bg image{
+width:100%;
+height:99vh;
+display:inline-block;
+overflow:hidden;
+}
+.login_int{
+  position: absolute;
+  left: 35rpx;
+  bottom: 128rpx;
+  background: #ffffff;
+  width: 680rpx;
+  height: 810rpx;
+  margin: 0 auto;
+}
+.login_content{
+  width: 592rpx;
+  margin: 0 auto;
+  padding:75rpx 0 89rpx 0 ;
+}
+.radio-group span{
+  font-family: "MicrosoftYaHei";
+  color: #999999;
+  font-size: 28rpx;
+  margin-right: 100rpx;
+  margin-left: 20rpx;
+}
+radio .wx-radio-input{
+   border-radius: 50%;/* 圆角 */
+   width: 40rpx;
+   height: 40rpx;
+}
+radio .wx-radio-input{
+    background: transparent; 
+    border: 1px solid #999999;
+    border-radius: 50%;
+}
+radio .wx-radio-input::before{
+    border-radius: 50%;/* 圆角 */
+   width: 65rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 65rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+   text-align: center;
+   padding-top: 10rpx;
+   box-sizing: border-box;
+   margin-top: -1rpx;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: #72AB9C;
+}
+.radio-group .login_radio{
+   font-family: "MicrosoftYaHei";
+    color: #111111;
+    font-size: 28rpx;
+    margin-left: 17rpx;
+    margin-right: 76rpx;
+}
+.login_name{
+  margin: 42rpx 0;
+}
+.login_daxie{
+  margin: 42rpx 0;
+}
+
+input{
+    font-family: "MicrosoftYaHei";
+  color: #999999;
+  font-size: 28rpx;
+  border: 1px solid #999999;
+  /* text-indent:20rpx; */
+  width: 592rpx;
+  height: 80rpx;
+  padding-left: 20rpx;
+  box-sizing:border-box;
+ 
+}
+.login_name span{
+   font-family: "MicrosoftYaHei";
+    color: #333333;
+    font-size: 24rpx;
+}
+.login_date span{
+   font-family: "MicrosoftYaHei";
+    color: #333333;
+    font-size: 24rpx;
+}
+.submit{
+  width: 420rpx;
+  margin: 0 auto;
+  background: #72AB9C;
+  margin-top: 60rpx;
+   font-family: "MicrosoftYaHei";
+    color: #ffffff;
+    font-size: 30rpx;
+}
+.about{
+  width: 100%;
+  text-align: center;
+  font-size: 29rpx;
+  font-family: "MicrosoftYaHei";
+  color:#fff;
+  box-sizing: border-box;
+   padding-bottom: 50rpx; 
+  padding-top: 45rpx;
+}
+.about text{
+  text-decoration: underline;
+}
+.fixed{
+  position: fixed;
+  bottom:40rpx;
+  right:51rpx;
+}
+.fixed image{
+width:40rpx;
+height:40rpx;
+vertical-align:middle;
+margin-right:4rpx;
+margin-top:-1rpx;
+
+}
+.fixed text{
+  font-size: 30rpx;
+  font-family: "MicrosoftYaHei";
+  color:#fff;
+}

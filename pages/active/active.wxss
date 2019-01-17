@@ -1,0 +1,46 @@
+@import "../../wxParse/wxParse.wxss";
+.content{
+  width: 690rpx;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding-top: 87rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.img_view{
+  width: 690rpx;
+  height: 100%;
+  margin: 0 auto;
+}
+.img{
+  /* width: 780rpx; */
+  height: 1200rpx;
+  width:100%;
+  margin:auto;
+}
+.text_view{
+  width: 690rpx;
+  height: 80rpx;
+  text-align: center;
+}
+.phone {
+  width: 100%;
+  text-align: center;
+  padding: 40rpx 170rpx;
+}
+
+.phone p {
+  font-size: 28rpx;
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: left;
+  color:#3E3E3E;
+}
+.phone  text {
+  float: left;
+  font-size: 28rpx;
+  color: #74B7A5;
+  display: block;
+}

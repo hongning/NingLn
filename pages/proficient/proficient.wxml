@@ -1,0 +1,24 @@
+<view class="proficient">
+  <view class="pro_title">
+    <text>前端工程师</text>
+  </view>
+  <view class="pro_detail">
+    <view class="pro_content">
+      <text class="detail">自我评价：</text>
+      <text>1.熟悉使用less和sass预处理器，高效编写css，开发效率高;</text>
+      <text>2.掌握技术类库jQuery、Zepto库,以及Iscroll、Swiper、echarts 等移动端开发组件;</text>
+      <text>3.熟悉使用Bootstrap、ionic等前端ui框架应用，能够快速实现响应式网页的开发，以及样式的定制</text>
+      <text>4.熟练使用Ajax/Json，熟悉PHP，能够很好的配合服务器完成请求、数据渲染；</text>
+      <text>5.了解Nodejs以及熟练使用基于node的gulp自动化构建工具，简化前端开发流程，模块化开发；</text>
+      <text>6.熟悉MVC框架angularjs、Vuejs、 webpack ,了解Reactjs 微信小程序;</text>
+      <text>7.熟练使用SVN、Git、版本控制工具；</text>
+      <text>8.熟悉前端开发的整个业务流程，能够很好的与UI和后台协同工作;</text>
+    </view>
+  </view>
+  <view class='phone clearfix'>
+   <p>
+      <text style='color:#3E3E3E'>NingLn开发者的微信：</text>
+      <text bindtap="copyTBL" style='text-decoration: underline;'>xiaoning_1097240130</text>
+    </p>
+</view>
+</view>

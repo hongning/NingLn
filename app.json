@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/proficient/proficient",
+    "pages/active/active",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/payment/payment",
+    "pages/all/all",
+    "pages/myDeatil/myDeatil",
+    "pages/about/about",
+    "pages/gogo/gogo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#72AB9C",
+    "navigationBarTitleText": "NingLn",
+    "navigationBarTextStyle": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#72AB9C",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "image/icon2.png",
+        "selectedIconPath": "image/icon22.png",
+        "pagePath": "pages/login/login",
+        "text": "测一测"
+      },
+      {
+        "iconPath": "image/zhuanjia1.png",
+        "selectedIconPath": "image/zhuanjia.png",
+        "pagePath": "pages/proficient/proficient",
+        "text": "前端介绍"
+      },
+      {
+        "iconPath": "image/active.png",
+        "selectedIconPath": "image/active1.png",
+        "pagePath": "pages/active/active",
+        "text": "活动"
+      },
+      {
+        "iconPath": "image/icon3.png",
+        "selectedIconPath": "image/icon33.png",
+        "pagePath": "pages/my/my",
+        "text": "我"
+      }
+    ]
+  }
+}

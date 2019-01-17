@@ -1,0 +1,145 @@
+/* pages/my/my.wxss */
+.my_content{
+  padding-top: 42rpx;
+  width: 690rpx;
+  margin: 0 auto;
+}
+.my_header{
+  margin-bottom: 18rpx;
+  width: 690rpx;
+}
+.my_header span{
+  font-family: "PingFang-SC-Bold";
+  font-size: 30rpx;
+  color:#111111;
+  font-weight: 600;
+   display: block;
+  float: left;
+}
+.my_header span:nth-child(1){
+
+  width: 6rpx;
+  height: 28rpx;
+  background: #72AB9C;
+}
+.my_header span:nth-child(2){
+ margin-top: -6rpx;
+ margin-left:10rpx;
+}
+.my_list{
+  width: 100%;
+  font-family: "PingFang-SC-Bold";
+  font-size: 30rpx;
+  border-bottom: 1px solid #cccccc;
+  padding: 20rpx 0;
+  
+}
+.my_list .xiangyou{
+  margin-left: 10rpx;
+  color: #cccccc;
+}
+.my_list span{
+  float: left;
+}
+.my_list span.sp3{
+   font-family: "PingFang-SC-Bold";
+  font-size: 28rpx;
+  font-weight: 600;
+  text-align: left;
+  line-height: 68rpx;
+  width: 33%;
+}
+.my_list span.sp4{
+   font-family: "PingFang-SC-Bold";
+  font-size: 28rpx;
+  text-align: left;
+  font-weight: 600;
+  line-height: 68rpx;
+  margin-left: 60rpx;
+  margin-right:30rpx;
+}
+.my_list span.sp1{
+width:68rpx;
+height:68rpx;
+border:1px solid #4FB0E7;
+display:block;
+border-radius:50%;
+text-align:center;
+line-height:68rpx;
+font-size: 34rpx;
+color:#4FB0E7;
+}
+.my_list span.sp2{
+   font-family: "PingFang-SC-Bold";
+   font-weight: 600;
+  font-size: 28rpx;
+  text-align: left;
+  margin-left: 13rpx;
+  line-height: 68rpx;
+  width: 21%;
+}
+span.edit , span.del{
+  font-family: "PingFang-SC-Bold";
+   font-weight: 600;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 50rpx;
+  width:15%;
+  height:50rpx;
+  border:1rpx solid #72AB9C;
+  color:#72AB9C;
+  display: inline-block;
+  margin-top: 12rpx;
+}
+span.edit{
+  margin-left: 16rpx;
+  background:#fff;
+}
+span.del{
+  background:#72AB9C;
+  color:#fff;
+}
+.content{
+  transition: all 0.4s;
+  transform: translateX(120px);
+  margin-left: -120px;
+}
+.ed{
+  transform: translateX(120px);
+  transition: all 0.4s;
+}
+.touch-move-active .content,
+.touch-move-active .ed {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.color_a{
+  color:#FB3737;
+}
+.color_b{
+  color:#999999;
+}
+.color_c{
+  color:#32C466;
+}
+.color_d{
+  color:#fff;
+}
+.fixed{
+  position: fixed;
+bottom:58rpx;
+right:34rpx;
+}
+.fixed image{
+width:40rpx;
+height:40rpx;
+vertical-align:middle;
+margin-right:4rpx;
+margin-top:-1rpx;
+
+}
+.fixed text{
+    font-size: 30rpx;
+  font-family: "MicrosoftYaHei";
+  color:#75B7A6;
+}

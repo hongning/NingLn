@@ -1,0 +1,14 @@
+<import src="../../wxParse/wxParse.wxml"/>
+<!-- <template is="wxParse" data="{{wxParseData:article.nodes}}"/> -->
+
+<view class="content">
+<view class="img_view">
+  </view>
+<view class='phone clearfix'>
+      <p>
+        <text style='color:#3E3E3E'>客服微信：</text>
+        <text bindtap="copyTBL" style='text-decoration: underline;'>xiaoning_1097240130</text>
+      </p>
+    </view>
+   
+</view>

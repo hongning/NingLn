@@ -1,0 +1,13 @@
+<!--pages/my/my.wxml-->
+<view class="my">
+  <view class="my_content">
+    <view class="my_header clearfix">
+      <span>
+
+      </span>
+      <span>
+       有问题联系我
+      </span>
+    </view>
+     </view>
+</view>

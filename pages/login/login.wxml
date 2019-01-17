@@ -1,0 +1,8 @@
+<!--pages/login/login.wxml-->
+<view class="login_bg">
+  <view class="login_int">
+      <view class="about">
+             <text bindtap='goAbout' >进一步</text>
+         </view>      
+  </view>
+</view>
